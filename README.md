@@ -20,16 +20,16 @@
 
 # Result
 
-#### Orginal Data
+### Orginal Data
 ![image](https://github.com/arleigh418/Addresses-Normalization-of-Taiwan-Based-on-GoogleAPI-and-Regular-Expression/blob/master/img/original.png)
 
 
-#### After First Stage
+### After First Stage
 ![image](https://github.com/arleigh418/Addresses-Normalization-of-Taiwan-Based-on-GoogleAPI-and-Regular-Expression/blob/master/img/first_stage.png)
 
 
-#### After Second Stage
-![image]https://github.com/arleigh418/Addresses-Normalization-of-Taiwan-Based-on-GoogleAPI-and-Regular-Expression/blob/master/img/second_stage.png
+### After Second Stage
+![image](https://github.com/arleigh418/Addresses-Normalization-of-Taiwan-Based-on-GoogleAPI-and-Regular-Expression/blob/master/img/second_stage.png)
 
 
 # Final
