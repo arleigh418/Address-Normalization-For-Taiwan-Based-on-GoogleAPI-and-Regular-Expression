@@ -1,4 +1,4 @@
-# Taiwan-Addresses-Normalization-Based-on-GoogleAPI-and-Regular-Expression
+# Addresses-Normalization-of-Taiwan-Based-on-GoogleAPI-and-Regular-Expression
 
 # What You Need ?
 1.You need to apply an Google map api from :https://cloud.google.com/ .
@@ -19,6 +19,24 @@
 5. It handle blank symbols and also transform full-shaped to half-shaped.
 
 # Result
-![image](https://github.com/arleigh418/Automatic-IG-Like/blob/master/example/example.gif)
+
+#### Orginal Data
+![image](https://github.com/arleigh418/Addresses-Normalization-of-Taiwan-Based-on-GoogleAPI-and-Regular-Expression/blob/master/img/original.png)
+
+
+#### After First Stage
+![image](https://github.com/arleigh418/Addresses-Normalization-of-Taiwan-Based-on-GoogleAPI-and-Regular-Expression/blob/master/img/first_stage.png)
+
+
+#### After Second Stage
+![image]https://github.com/arleigh418/Addresses-Normalization-of-Taiwan-Based-on-GoogleAPI-and-Regular-Expression/blob/master/img/second_stage.png
+
+
+# Final
+1.You may get some error in some special cases that are not thought of , cause I'm not major in Geographical.
+
+2.If there are some logical error , please let me know.
+
+3.If you find any error or you have any questions,please contact we for free , welcome everyone to discuss.
 
 
