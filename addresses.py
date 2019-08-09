@@ -44,19 +44,19 @@ def get_api(api_key , addresses):
         others_handle = re.compile(r'\d+樓')
         others_handle2 = re.compile(r'之+\d')
         
-        url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + query + 'sensor=false&language=zh-tw&key=' + api_key
+        url = 'https://maps.googleapis.com/maps/api/geocode/json?address='+query+'&language=zh-tw&key='+api_key
         r = requests.get(url,verify = False)
         data = r.json()
         try:
             if others_handle.search(query) != None:
-                if len(query) - len(data['results'][0]['formatted_address']+'樓')  > 1:
+                if len(query)+3 - len(data['results'][0]['formatted_address']+'樓')  > 1:
                     transformed.append(data['results'][0]['formatted_address']+'樓')
                     print('地址:',query,'， 疑似異常，請檢查')
                 else:
                     transformed.append(data['results'][0]['formatted_address']+'樓')
 
             elif others_handle2.search(query) != None:
-                if  len(query) - len(data['results'][0]['formatted_address']+query[query.index(others_handle.search(query).group()):]) > 1:
+                if  len(query)+3 - len(data['results'][0]['formatted_address']+query[query.index(others_handle.search(query).group()):]) > 1:
                     transformed.append(data['results'][0]['formatted_address']+query[query.index(others_handle.search(query).group()):])
                     print('地址:',query,'， 疑似異常，請檢查')
                 else:
@@ -64,7 +64,7 @@ def get_api(api_key , addresses):
                 
 
             else:
-                if  len(query) - len(data['results'][0]['formatted_address'])   > 1:
+                if  len(query)+3 - len(data['results'][0]['formatted_address'])   > 1:
                     transformed.append(data['results'][0]['formatted_address'])
                     print('地址:',query,'， 疑似異常，請檢查')
                 else:
