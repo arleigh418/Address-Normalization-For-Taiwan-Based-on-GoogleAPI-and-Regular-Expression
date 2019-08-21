@@ -15,7 +15,7 @@
 
 4. Folder 'Log' is for logging all processes and also error.
 
-5. This Project support .csv & .xlsx
+5. This Project support csv & xlsx
 
 6. It handle blank symbols and also transform full-shaped to half-shaped.
  
