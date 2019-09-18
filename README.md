@@ -1,4 +1,4 @@
-# Address-Normalization-of-Taiwan-Based-on-GoogleAPI-and-Regular-Expression
+# Address-Normalization-For-Taiwan-Based-on-GoogleAPI-and-Regular-Expression
 
 # What You Need To Do?
 1.You need to apply an Google map api from :https://cloud.google.com/ .
@@ -9,7 +9,7 @@
 # How it work?
 1. This project use Regular-Expression to deal with these addresses in first stage that make sure it conform to the Google api format.
 
-2. It may get wrong if the fotmat is incorrect.(Example : 三民路十三號 --> 三民路13號 , 6段 --> 六段 , 3民路 --> 三民路)
+2. It may get wrong if the fotmat is incorrect,so need to fix it first.(Stage1.)(Example : 三民路十三號 --> 三民路13號 , 6段 --> 六段 , 3民路 --> 三民路)
 
 3. In second stage use google map api to patch these addresses.
 
@@ -37,7 +37,7 @@
 # Final
 1.You may get some error in some special cases that are not thought of , cause I'm not very familiar with Geographical.
 
-2.If there are some logical error , please let me know.
+2.If there are some logical errors , please let me know.
 
 3.If you find any error or you have any questions,please contact we for free , welcome everyone to discuss.
 
