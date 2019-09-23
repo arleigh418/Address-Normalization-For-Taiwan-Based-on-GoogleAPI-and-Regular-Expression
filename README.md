@@ -41,6 +41,6 @@
 
 3.If you find any error or you have any questions,please contact we for free , welcome everyone to discuss.
 
-## This Project is actually used in corporate customer address , according to that case I fix some mistakes  in ver1.0(Now is Ver2.0) . This project still need lots of cases for better result.  
+## This Project is actually used in corporate customer address , according to that case I fix some mistakes  in ver1.0(Now is Ver2.0) , and it still need lots of cases for better result.  
 
 
